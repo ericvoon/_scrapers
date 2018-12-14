@@ -1,5 +1,5 @@
 Scrapers<br>
-Include my repo with your repo to always have the latest updates from me
+Include this repo with your repo to always have the latest updates for Lambda Scrapers
 
 ```
 <dir>
