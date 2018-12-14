@@ -1,34 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.13clowns" name="13Clowns" version="1.0.1" provider-name="13Clowns">
+    <addon id="repository.13Cscrapers" name="13Clowns" version="0.0.1" provider-name="13Clowns">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="13Clowns">
-            <info compressed="false">http://www.13clowns.com/repo/sources/_scrapers/addons.xml</info>
-            <checksum>http://www.13clowns.com/repo/sources/_scrapers/addons.xml.md5</checksum>
-            <datadir zip="true">http://www.13clowns.com/repo/sources/_scrapers/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/13Clowns/_scrapers/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/13Clowns/_scrapers/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/13Clowns/_scrapers/master/</datadir>
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>13Clowns Repo is a free portal for circus freaks to see the best stuff</summary>
-            <description>This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
-            <platform>all</platform>
-    </extension>
-</addon>
-
-    <addon id="repository.13Cscrapers" name="13Clowns" version="1.0.1" provider-name="13Clowns">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="13Clowns">
-            <info compressed="false">http://www.13clowns.com/repo/sources/_scrapers/addons.xml</info>
-            <checksum>http://www.13clowns.com/repo/sources/_scrapers/addons.xml.md5</checksum>
-            <datadir zip="true">http://www.13clowns.com/repo/sources/_scrapers/</datadir>
-            <hashes>false</hashes>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>13Clowns Repo is a free portal for circus freaks to see the best stuff</summary>
+            <summary>13Clowns Scrapers fork from Lambda (I-A-C). Scraper Module for Exodus based add ons.</summary>
             <description>This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
             <platform>all</platform>
     </extension>
