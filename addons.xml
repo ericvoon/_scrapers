@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-    <addon id="repository.13Cscrapers" name="[B][COLOR ff680001]13C[/COLOR] scrapers[/B]" version="0.0.2" provider-name="13Clowns">
+    <addon id="repository.13Cscrapers" name="[B][COLOR red]13Clowns[/COLOR]Scraper Repo[/B]" version="0.0.3" provider-name="13Clowns">
         <requires>
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
@@ -11,13 +11,14 @@
             <hashes>false</hashes>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary>13Clowns Scrapers fork from Lambda (I-A-C). Scraper Module for Exodus based add ons.</summary>
-            <description>This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+            <summary lang="en">[B][COLOR red]13Clowns[/COLOR] Lambda Scraper FORK[/B] is a fork of I-A-C github. Its being updated as much as possible. Please add your "WORKING" pull requests to keep it going!!!</summary>
+        <description lang="en">This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+        <disclaimer lang="en">The author is not responsible for the use of this addon. The author is not responsible for the content found using this addon. The author does not host or own any content found within this addon. The author is in no way affiliated with Kodi, Team Kodi, or the XBMC Foundation. This is a Non-profit resource, organized solely for educational purposes which is protected under the Fair-Use doctrine of the Copyright Act, Specifically section 107, which does promote freedom of expression, by permitting the unlicensed use of copyright-protected works</disclaimer>
             <platform>all</platform>
     </extension>
 </addon>
 
-<addon id="script.module.lambdascrapers" name="Lambdascrapers Module" version="1.8.2.1" provider-name="Sergio49650">
+<addon id="script.module.lambdascrapers" name="Lambdascrapers Module" version="1.8.2.2" provider-name="13Clowns">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0" />
 		<import addon="script.module.beautifulsoup4"/>
@@ -26,7 +27,7 @@
 	<extension point="xbmc.python.pluginsource" library="lib/default.py">
 		<provides>executable</provides>
 	</extension>
-	<extension point="xbmc.service" library="CleanupService.py" start="startup" />
+	<!--<extension point="xbmc.service" library="CleanupService.py" start="startup" />-->
 		<extension point="xbmc.addon.metadata">
 			<platform>all</platform>
 			<summary lang="en">Lambdascrapers Module</summary>
